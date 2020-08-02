@@ -1,1 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+  <title>OYFA at UVA</title>
+  <link rel="shortcut icon" type="image/png" href="./images/colored_logo.png"/>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <link href="https://fonts.googleapis.com/css?family=Abril+Fatface:400,400i|Roboto+Mono&display=swap" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="css/animate.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="css/self.css">
+
+  <link rel="stylesheet" href="fonts/ionicons/css/ionicons.min.css">
+  <link rel="stylesheet" href="fonts/fontawesome/css/font-awesome.min.css">
+  <script src="https://use.fontawesome.com/68f3846bea.js"></script>
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+  <link href="https://fonts.googleapis.com/css?family=Cutive&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="css/aos.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
+
+  <!-- Theme Style -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <header role="banner">
+    <nav class="navbar navbar-expand-lg  bg-dark navbar-fixed-top">
+      <!-- Would like the navbar to be sticky at the top!! -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">OYFA</a>
+        <div class="statement-wrap">
+          <a class= "statement" href="statement.pdf">Solidarity Statement</a>
+      </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+          aria-controls="navbarsExample05" ar ia-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+          <ul class="navbar-nav pl-md-5 ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#top">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="https://docs.google.com/forms/d/1ec2dqZ7HNB0hx7r279x4uBbboDdS2GVtKRFW7HRxsLE/viewform?edit_requested=true" target="_blank">Join</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#events">Events</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./blog.html" target="_blank">Blog</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./officers.html" >B&C</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="https://paypal.me/oyfa" >Donate</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./archives.html" >Archives</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- END header -->
+
+  <div id="top" class="slider-item overlay" data-stellar-background-ratio="0.5"
+    style="background-image: url('images/background.png');">
+    <div class="container" id="index">
+      <div class="row slider-text align-items-center justify-content-center">
+        <div class="col-lg-12 text-center col-sm-12">
+          <h1 class="mb-4 header" data-aos="fade-up" data-aos-delay="100">Organization of Young Filipino Americans</h1>
+          <h2 class="mb-4 tag-line" data-aos="fade-up" data-aos-delay="100">Bringing Filipino culture to the University of Virginia since 1988</h2>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-0">
+          <div class="service text-center" data-aos="fade-up" data-aos-delay="100">
+            <a href="https://docs.google.com/forms/d/1ec2dqZ7HNB0hx7r279x4uBbboDdS2GVtKRFW7HRxsLE/viewform?edit_requested=true" id="join-btn" target="_blank">
+              <span class="icon fa fa-users mb-4 d-block"></span>
+              <h3>Join</h3>
+              <p>Become an OYFAn! Get involved in our community and get access to fun social events, enriching cultural events, and the best food you've ever tasted! Click <strong>here</strong> to sign up for a big.</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-0">
+          <div class="service text-center" data-aos="fade-up" data-aos-delay="200">
+            <a href="https://paypal.me/oyfa" target="_blank" id="join-btn">
+              <span class="icon fa fa-money mb-4 d-block"></span>
+              <h3>Donate</h3>
+              <p>Want to support OYFAns succeed academically through the scholarship fund, culturally through Barrio, or recreationally through bonding experiences? Donate <strong>here</strong>!</p>
+            </a>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-0">
+          <div class="service text-center" data-aos="fade-up" data-aos-delay="300">
+            <a href="./blog.html" target="_blank" id="join-btn">
+              <span class="icon fa fa-book mb-4 d-block"></span>
+              <h3>Blog</h3>
+              <p>On our blog you can find photos and stories about what we do. If you want to see what Barrio was all about or how our last general meeting went, check out <strong>our blog</strong> created by our Historians!</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-primary py-3" id="announcements"></div>
+
+  <div class="item mt-4">    
+    <div class="section">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
+            <figure class="img-dotted-bg" style="height:300px;">
+                <a href="https://drive.google.com/file/d/1mrx1TS90xbmds1XU8DJwWKw1OnlODtS4/view?usp=sharing" target="_blank"><img src="images/scholarship-logo.png" alt="Image" class="img-fluid"></a>
+            </figure>
+          </div>
+          <div class="col-md-5 ml-auto" data-aos="fade-up" data-aos-delay="">
+            <div class="bg-primary py-3 mb-2">
+              <div class="row justify-content-center mb-0">
+                  <div class="col-md-8 text-center ">
+                    <h2 class="mb-0 section-title text-white">OYFA Scholarship</h2>
+                  </div>
+              </div>
+            </div>
+              <!-- <h2 class="mb-4 section-title">OYFA Scholarship</h2> -->
+              <br>
+            <p>Due Sunday, April 5th, 2020 by 11:59pm</p>
+            <p>Please submit your applications <a href="https://www.tinyurl.com/oyfascholarship2020" target="_blank" style="color:#7D97CE;">here</a>!</p>
+            <p>OYFA wants to reward you for being such an exponential first-year. Apply for the OYFA Scholarship! 
+            <br>Click the photo to download the application and click <a href="https://drive.google.com/open?id=1gS88HipFsCFmAkrhBlXkNVguKLtaLREs" target="_blank" style="color:#7D97CE;">here</a> to view the rubric!</p>
+
+            <!-- <p class="mt-5" data-aos="fade-up" data-aos-delay="200"><a href="./events.html" class="btn btn-outline-black">More Events!</a></p> -->
+          </div>
+        </div>
+      </div>
+    </div> 
+
+  <div class="section bg-secondary block-11">
+    <div class="container">
+      <div class="row justify-content-center mb-0">
+        <div class="col-md-8 text-center">
+          <h2 class="mb-0 section-title">Happy OYFAns</h2>
+        </div>
+      </div>
+      <div class="nonloop-block-11 owl-carousel">
+        <div class="item">
+          <div class="block-33 h-100">
+            <div class="vcard d-flex mb-3">
+              <div class="name-text align-self-center">
+                <h2 class="heading">Richard Dizon</h2>
+                <span class="meta">2014 - 2018</span>
+              </div>
+            </div>
+            <div class="text">
+              <blockquote>
+                <p>&ldquo;OYFA gave me the role models I never thought I needed while at UVA. As a first-generation college student, I didn't really know anyone going here and didn't have many people to look up to for guidance in navigating this new space, much less from people who shared a similar cultural heritage as I did. It was inspiring to see what all the upperclassman had accomplished outside of OYFA, being well-rounded leaders in a wide array of other clubs, being successful and balanced through school, and taking on incredible internships and jobs. Since graduating, I've even been inspired to mentor and pass down as much information as I can and lift up my fellow OYFAns to achieve more as well.&rdquo;</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+        <!-- Can't figure how to change the carousel colors!!!!! -->
+
+        <div class="item">
+          <div class="block-33 h-100">
+            <div class="vcard d-flex mb-3">
+              <div class="name-text align-self-center">
+                <h2 class="heading">Jana Mirafuente</h2>
+                <span class="meta">2018 - Present</span>
+              </div>
+            </div>
+            <div class="text">
+              <blockquote>
+                <p>&ldquo;Being an out-of-state minority student made it difficult to feel at-home at UVA during my first year. Luckily, I found OYFA, an org that celebrated my lesser known culture and gave me a home away from home. Of course, OYFA is not perfect. Its hypersocial culture made me really anxious all the time as an active member. I felt like eyes were on me at all times watching me strive to be the perfect OYFA member. However, if I mess up, I also always felt like voices would start whispering behind my back. But that’s all of UVA, and OYFA has simply fallen into that perfectionist culture. Nevertheless, great events like Barrio, Secret Santa, and various dialogues have shown me the potential of OYFA and never fail to remind me that OYFAmily is forever.&rdquo;</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="block-33 h-100">
+            <div class="vcard d-flex mb-3">
+              <div class="name-text align-self-center">
+                <h2 class="heading">Ysabel Sprague</h2>
+                <span class="meta">2017 - Present</span>
+              </div>
+            </div>
+            <div class="text">
+              <blockquote>
+                <p>&ldquo;Being apart of OYFA allows me to explore my Filipino identity in a space that is accepting of learning about the culture, and the processes that come along with this. I came to college during a time when I was confused with my cultural identity and had limited connection to other Filipinos outside of my family. OYFA offers a space of acceptance, growth, and a new family away from home. I am so thankful that I made the decision to join my first year. OYFA has shaped my college experience in the best way, and I am forever grateful for the opportunities this organization has afforded me.&rdquo;</p>
+              </blockquote>
+            </div>
+          </div>
+        </div>
+
+        <!-- <div class="item">
+          <div class="block-33 h-100">
+            <div class="vcard d-flex mb-3">
+              <div class="name-text align-self-center">
+                <h2 class="heading">Mara Hart</h2>
+                <span class="meta">2018 - Present</span>
+              </div>
+            </div>
+            <div class="text">
+              <blockquote>
+                <p>&ldquo; &rdquo;</p>
+              </blockquote>
+            </div>
+          </div>
+        </div> -->
+
+      </div>
+    </div>
+  </div>
+  <!-- END .block-4 -->
+  </div>
+
+
+  <div class="section">
+    <div class="container" id="about">
+      <div class="row">
+        
+        <div class="col-lg-6 ml-auto pl-lg-4 mb-5 order-2">
+
+          <img src="./images/Fieldday.jpg" style="object-fit:cover; height:200px; width:600px;" alt="Image" class="img-fluid mb-5">
+
+          <div class="row">
+            <div class="col-lg-6 mb-2">
+              <div class="service text-center" data-aos="fade-up" data-aos-delay="100">
+                <h3>Mission</h3>
+                <p>The Organization of Young Filipino Americans strives to heighten awareness and appreciation of the Filipino culture to the greater UVA and Charlottesville communities as well as serve as the liaison to the University of Virginia students as part of the Filipino Intercollegiate Networking Dialogue.</p>
+              </div>
+            </div>
+            <div class="col-lg-6 mb-2">
+              <div class="service text-center" data-aos="fade-up" data-aos-delay="200">
+                <h3>History</h3>
+                <p>In 1988, Filipino students such as Cyn Romero and Brod Bello wanted to form an inclusive organization that welcomed anyone, Filipino or not. They wanted an organization that would teach members about the Filipino culture and share it with others. So, OYFA was born.</p>
+              </div>
+            </div>
+            <div class="col-lg-12 mb-2">
+              <div class="service text-center" data-aos="fade-up" data-aos-delay="300">
+                <p><a href="./officers.html" class="btn btn-outline-black">Meet Our Team!</a></p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-lg-6 order-1">
+          <figure class="img-dotted-bg">
+            <img src="https://images.squarespace-cdn.com/content/v1/572164baf8508222d12dcd6e/1519204002309-YYDRI0B2RQC2SBVPUOTX/ke17ZwdGBToddI8pDm48kJ5a22CA6cnGPk0MICWiq4h7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1UTyHg1UW0Z9qDDvIOCyLEa7WhUyB18-tTFCiT-EhnOhpy4esdQB3BRl8sZrbGldWOw/The+Philippines+-+Island+Hopping+Itinerary" alt="Image" class="img-fluid">
+          </figure>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-primary py-5" id="contact">
+    <div class="container text-center">
+      <div class="row justify-content-center">
+        <div class="col-lg-7">
+          <h3 class="text-white mb-2 font-weight-normal" >Want our weekly newsletters?</h3>
+          <!-- <p class="text-white mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p> -->
+          <p class="mb-0" data-aos="fade-up" data-aos-delay="200"><a href="https://oyfaatuva.us4.list-manage.com/subscribe?u=06c31be345165e241d2affc73&id=11be915f14" class="btn btn-outline-white px-4 py-3">Subscribe!</a></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+    
+<!-- CONTACT FORM HERE
+  
+  <div class="section mb-0">
+  <div class="container">
+      <h1 class="text-primary">Contact Us!</h1>
+    <div class="row mt-5">
+      <div class="col-12 mb-0 order-2">
+        <form action="#" method="post">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" class="form-control ">
+            </div>
+            <div class="col-md-6 form-group">
+              <label for="phone">Phone</label>
+              <input type="text" id="phone" class="form-control ">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 form-group">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" class="form-control ">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <label for="message">Write Message</label>
+              <textarea name="message" id="message" class="form-control " cols="30" rows="8"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input type="submit" value="Send Message" class="btn btn-outline-black px-3 py-3">
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+  
+
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="row mb-5">
+        <div class="col-md-8 mb-5">
+          <h3 class="mb-4">About Us</h3>
+          <p class="mb-5">Created in 1988, the Organization of Young Filipino Americans strives to share its culture with anyone who wants to learn. Come <a href="https://docs.google.com/forms/d/1ec2dqZ7HNB0hx7r279x4uBbboDdS2GVtKRFW7HRxsLE/viewform?edit_requested=true">join</a>!</p>
+        </div>
+        <div class="col-md-4 ml-auto">
+
+          <h3 class="mb-4">Find Us Here</h3>
+
+          <ul class="list-unstyled footer-link d-flex footer-social">
+            <li><a href="https://twitter.com/oyfaatuva" target="_blank" class="p-2 mr-5"><span class="icon fa fa-twitter"></span></a></li>
+            <li><a href="https://www.facebook.com/groups/oyfaatuva/" target="_blank" class="p-2 mr-4"><span class="icon fa fa-facebook"></span></a></li>
+            <li><a href="https://www.youtube.com/user/uvaOYFA" target="_blank" class="p-2 mr-4"><span class="icon fa fa-youtube"></span></a></li>
+            <li><a href="https://www.instagram.com/oyfaatuva/" target="_blank" class="p-2"><span class="icon fa fa-instagram"></span></a></li>
+          </ul>
+        </div>
+        <hr>
+        
+      </div>
+      <div class="row">
+        <div class="col-12 text-md-center text-left">
+          <p class="small">
+            Website created and maintained by OYFA Webmasters. Access code <strong><a href="https://www.github.com/maralihart/oyfa-website" target="_blank">here</a></strong>
+          </p>
+          <p class="small">
+              Although this organization has members who are University of Virginia students and may have University employees associated or engaged in its activities and affairs, the organization is not a part of or an agency of the University. It is a separate and independent organization which is responsible for and manages its own activities and affairs. The University does not direct, supervise or control the organization and is not responsible for the organization′s contracts, acts or omissions.
+          </p>
+          <p class="small">
+            Click <strong><a href="./archives/index.php">here</a></strong> to view the previous website.
+          </p>
+          <p class="small">
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | Design: <a href="https://colorlib.com" target="_blank" >Colorlib</a>
+            <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+          </p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- END footer -->
+
+  <!-- loader -->
+  <div id="loader" class="show fullscreen"><svg class="circular" width="48px" height="48px">
+      <circle class="path-bg" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke="#eeeeee" />
+      <circle class="path" cx="24" cy="24" r="22" fill="none" stroke-width="4" stroke-miterlimit="10"
+        stroke="#ffc107" /></svg></div>
+
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
