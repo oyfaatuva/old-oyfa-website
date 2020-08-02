@@ -1,0 +1,13 @@
+.statement{
+    color:white;
+    text-align:center;
+    margin:auto;
+    font-size:1.3rem;
+    text-decoration:underline;
+}
+.statement-wrap{
+    text-align:center;
+    width:100%;
+}
+
+.statement:hover{color:white;}
