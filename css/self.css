@@ -11,3 +11,8 @@
 }
 
 .statement:hover{color:white;}
+
+.banner{
+    position:fixed;
+    background-color: black!important;
+}
