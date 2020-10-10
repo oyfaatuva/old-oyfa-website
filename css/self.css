@@ -15,4 +15,5 @@
 .banner{
     position:fixed;
     background-color: black!important;
+    transition: top .8s;
 }

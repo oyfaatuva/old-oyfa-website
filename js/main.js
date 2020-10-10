@@ -22,8 +22,8 @@ $(document).ready(function(){
       });
     } // End if
   });
-}); 
- 
+});
+
  AOS.init({
   duration: 800,
   easing: 'slide-up',
@@ -37,7 +37,7 @@ $(document).ready(function(){
 
   // loader
   var loader = function() {
-    setTimeout(function() { 
+    setTimeout(function() {
       if($('#loader').length > 0) {
         $('#loader').removeClass('show');
       }
@@ -45,7 +45,7 @@ $(document).ready(function(){
   };
   loader();
 
-	
+
 	$('nav .dropdown').hover(function(){
 		var $this = $(this);
 		$this.addClass('show');
@@ -65,8 +65,8 @@ $(document).ready(function(){
 	$('#dropdown04').on('show.bs.dropdown', function () {
 	  console.log('show');
   });
-  
-  
+
+
 	// home slider
 	$('.home-slider').owlCarousel({
     loop:true,
@@ -198,7 +198,7 @@ $(document).ready(function(){
 		$('.element-animate').waypoint( function( direction ) {
 
 			if( direction === 'down' && !$(this.element).hasClass('element-animated') ) {
-				
+
 				i++;
 
 				$(this.element).addClass('item-animate');
@@ -220,9 +220,9 @@ $(document).ready(function(){
 							el.removeClass('item-animate');
 						},  k * 100);
 					});
-					
+
 				}, 100);
-				
+
 			}
 
 		} , { offset: '95%' } );
@@ -241,7 +241,22 @@ $(document).ready(function(){
     });
   };
   slideImage();
-  
-  
+
+
 
 })(jQuery);
+
+// Navbar scroll effect
+var prevScrollpos = window.pageYOffset;
+var navHeight = document.getElementById('navbar').getBoundingClientRect().height;
+window.onscroll = function(){
+    var currentScrollPos = window.pageYOffset;
+    if (prevScrollpos < currentScrollPos) {
+    document.getElementById("navbar").style.top = "-200px";
+        } else {
+
+    document.getElementById("navbar").style.top = '0';
+        }
+    prevScrollpos = currentScrollPos;
+
+}
