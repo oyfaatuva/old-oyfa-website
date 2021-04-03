@@ -17,3 +17,30 @@
     background-color: black!important;
     transition: top .8s;
 }
+
+#donate{
+    /*position:fixed;
+    background-image: url("images/line.png");*/
+    text-align:center;
+    top:10em;
+}
+
+@media (min-width: 800px){
+#donation-wrap::before {    
+    content: "";
+    background-image: url('../images/line.png');
+    background-size: auto 100%;
+   background-repeat: repeat-y;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.45;
+    /*height:60rem;*/
+}
+}
+
+#donate-button{
+     border-radius: 3%;
+}
