@@ -7,7 +7,7 @@ This is a rough draft for the website where we will deploy all changes before pu
 
 ## To-Do
 **If working on these, please check it and put branch name next to task. Example below:**  
-- [x] Worked on this - mara
+- [x] Worked on this
 
 - [ ] Fill in officers.html
 - [ ] Fill in bios.html
