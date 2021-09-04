@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .statement{
     color:white;
     text-align:center;

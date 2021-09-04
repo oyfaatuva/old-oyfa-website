@@ -1,3 +1,8 @@
+/* allows for smooth scrolling on anchor tags */
+html {
+    scroll-behavior: smooth;
+}
+
 .statement{
     color:white;
     text-align:center;

@@ -32,6 +32,11 @@
   <!-- Theme Style -->
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/self.css">
+
+  <!-- NEED TO REMOVE SCROLL BEHAVIOR IN ORDER FOR BOOKMARKING TO WORK -->
+  <style>
+    html {scroll-behavior: unset;}
+  </style>
 </head>
 
 <body>
@@ -86,8 +91,8 @@
   </header>
   <!-- END header -->
   <div style="background: linear-gradient(180deg,#7D97CE, white); height: 80px;"></div>
-
-  <div class="section" id=president>
+  
+  <div class="section" id="president">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
@@ -118,8 +123,7 @@
     </div>
   </div>
 
-  <div id="vp"></div>
-  <div class="section">
+  <div id="vp" class="section">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6" data-aos="fade-up" data-aos-delay="100">
@@ -190,7 +194,6 @@
       </div>
     </div>
   </div>
-
 
   <div id="oc" class="section">
     <div class="container">
@@ -661,7 +664,7 @@
           </figure>
         </div>
         <div class="col-md-5 ml-auto" data-aos="fade-up" data-aos-delay="">
-          <h2 class="mb-4 section-title">Korey Busby<span style="font-size: 50%; color: silver;">(She/They)</span></h2>
+          <h2 class="mb-4 section-title">Korey Busby <span style="font-size: 50%; color: silver;">(They/She)</span></h2>
           <p>4th Year
             <br>Nursing | African American Studies Minor
             <br>Houston, TX
