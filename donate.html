@@ -28,91 +28,160 @@
   <link rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.css">
 
-  <link rel="stylesheet" href="css/custom.css">
   <!-- Theme Style -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/donate_styling.css">
   <link rel="stylesheet" href="css/self.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 
+  <style>
+    html {scroll-behavior: smooth;}
+  </style>
 </head>
-<body id="donate-body">
-    <header class = "banner" id = "navbar" role="banner">
-        <nav class="navbar navbar-expand-lg  bg-dark navbar-fixed-top">
-          <!-- Would like the navbar to be sticky at the top!! -->
-          <div class="container-fluid">
-            <a class="navbar-brand"  href="index.html">OYFA</a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
-              aria-controls="navbarsExample05" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
+<body>
 
-            <div class="collapse navbar-collapse" id="navbarsExample05">
-                <ul class="navbar-nav pl-md-5 ml-auto">
-                  <li class="nav-item">
-                    <a class="nav-link" href="./index.html">Home</a>
-                  </li>
-                  <!--<li class="nav-item">
-                    <a class="nav-link" href="./index.html#about">About</a>
-                  </li>-->
-                  <li class="nav-item dropdown">
-                    <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSeW4dvMwDJJwLfilLaiDMJ7-x-7ljQ5PNWNYypOLNwxyAydoQ/viewform" target="_blank">Join</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                  <a class="nav-link" href="./events.html">Events</a>
-                </li>
-                <!-- <li class="nav-item dropdown">
-                  <a class="nav-link" href="blog.html" target="_blank">Blog</a>
-                </li> -->
-                <li class="nav-item dropdown">
-                  <a class="nav-link" href="./announcements.html" >Announcements</a>
-                </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link" href="./officers.html" >B&C</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link" href="./donate.html">Donate</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link" href="./archives.html" >Archives</a>
-                  </li>
-                  <!-- <li class="nav-item dropdown">
-                    <a class="nav-link" href="#contact">Contact</a>
-                  </li> -->
-                </ul>
-              </div>
-          </div>
-        </nav>
-      </header>
-      <!-- END header -->
+  <header class = "banner" id = "navbar" role="banner" style="background-color:black;">
+    <nav class="navbar navbar-expand-lg  bg-dark navbar-fixed-top">
+      <!-- Would like the navbar to be sticky at the top!! -->
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">OYFA</a>
+        <!--<div class="statement-wrap">
+          <a class= "statement" href="statement.pdf">Solidarity Statement</a>
+      </div>-->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample05"
+          aria-controls="navbarsExample05" ar ia-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-<div class="bg-img">
-    <wrapper id="donation-wrap">
-        <main class="mx-auto col-md-8 col-sm-12 " id="donate">
-            <h1>Donate</h1>
-            <br>
-            <p>"Your contributions to the Organization of Young Filipino Americans at UVA are greatly appreciated. They
-                could
-                benefit our extensive calendar of consistent event programming, our annual excellence scholarship, and
-                especially our major cultural showcases like Barrio Fiesta, Filipino Food Night, and more that encourage
-                celebration of Filipino culture and identity across UVA and the Charlottesville community. If you have
-                additional questions about how your donations could be used, please reach out to the current Treasurer for
-                more
-                information. Thank you."</p>
-            <h3> - Arabella Chiang, Treasurer 2021-2022</h3>
-            <br>
-            Contact information for the current treasurer can be found in the "B&C" tab at the top.
-            <br>
-            <br>
-            <h5> If you would like to contribute to O.Y.F.A. @ UVA, please click the button below. You will be linked to the
-              PayPal account owned by Owen Haines, former Treasurer of O.Y.F.A., who remains the point of contact for
-              donations.<br> Thank you!
-            </h5>
-            <br>
-            <button type="button" id="donate-button" class="btn btn-primary" href="https://paypal.me/oyfa">Donate!</button>
-            </main>
+        <div class="collapse navbar-collapse" id="navbarsExample05">
+          <ul class="navbar-nav pl-md-5 ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="index.html#about">About</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdVU41KZMeB8SRcqT4JvENzWSGHbgcxtDXzJh4haWUWjf09Vw/viewform?usp=send_form" target="_blank">Join</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="events.html">Events</a>
+            </li>
+            <!-- <li class="nav-item dropdown">
+              <a class="nav-link" href="blog.html" target="_blank">Blog</a>
+            </li> -->
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="announcements.html" target="_blank">Announcements</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="officers.html" >B&C</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="./donate.html">Donate</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link" href="archives.html" >Archives</a>
+            </li>
+            <!-- <li class="nav-item">
+              <a class="nav-link" href="#contact">Contact</a>
+            </li> -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- END header -->
 
-    </wrapper>
-</div>
+  <div class="slider-item overlay" data-stellar-background-ratio="0.5"
+    style="background-image: url('images/rai_typhoon1.jpeg');">
+    <div class="container main-pic">
+      <div class="row slider-text align-items-center justify-content-center text-center">
+        <div class="col-lg-12 col-sm-12">
+          <h1 class="mb-4" data-aos="fade-up" data-aos-delay="">Philippines Relief Fund</h1>
+          <p class="custom-breadcrumbs" data-aos="fade-up" data-aos-delay="100"><a href="https://www.gofundme.com/f/dvm8xd-philippines-relief-fund?utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all&utm_source=customer">Donate</a> / See Below</p>
+        </div>
+        <!-- <i class="material-icons arrow">arrow_downward</i> -->
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <br>
+
+  <div class="col">
+    <div class="row">
+      <div class="col" id="description">
+        <p style="text-align: center;">OYFA is collecting donations for The Philippines Relief Fund. All donations go towards those directly affected by Typhoon Rai, which hit in late December 2021. 
+          Because of the typhoon, millions of individuals from the two major regions of the Philippines - Mindanao and Visayas - have been displaced with no power, no communication, 
+          and very little water and supplies.  Additionally, due to widespread landslides, flooding, and an emergence of waterborne disease, the total known number of injuries 
+          and deaths are increasing.
+          <br> <br>
+          <span><a href="https://www.cavalierdaily.com/article/2022/01/oyfa-organizes-the-philippines-relief-fund-in-the-aftermath-of-typhoon-rai" style="text-decoration: underline;">Cavalier Daily Article</a></span>
+        </p>
+      </div>
+    </div>
+    <hr>
+    <h3>Statistics</h3>
+    <div class="row">
+      <div class="col-lg-6 img">
+        <img src="images/rai_typhoon2.jpeg" alt="rai_typhoon_img" height="600">
+      </div>
+      <div class="col-lg-6 img-description">
+        <p>The most destructive storms (categories 4 % 5) have increased globally by 28%.  Since 1970,
+          typhoon damages have been rising by approximately 6% per year, making it the most costly natural weather disaster.
+          Due to its geographical location, the Philippines is prone to typhoons, with Typhoon Haiyan (2013) being the deadlies in modern 
+          history, costing 6,300 lives and $2.2 billion in damages.
+          <br> <br>
+          In December 2021, Tyhpoon Rai hit Mindanao and Visayas - two of the major regions of the Philippines. Due to widespread landslides,
+          flooding, and an emergence of waterborne diseases, the total knwon number of injuries and deaths are increasing.
+          <br><br>
+          In numbers:
+          <br>
+          Damage on infrastructures: ~$327,639,358.50 <br>
+          Damage to agriculture: ~$130,998,093.81 <br>
+          Persons affected: ~6,646,970 <br>
+          - Injured or ill: ~1147 <br>
+          - Missing: ~82 <br>
+          - Lives lost: ~405
+        </p>
+      </div>
+    </div>
+    <hr>
+    <h3>Donate</h3>
+    <div class="row">
+      <div class="col">
+        <p style="text-align: center;"> We will continually be accepting donations throughout the semester because of the severity of the typhoon’s effects and the several year long recovery process. 
+          All funds raised will go to Lokal Lab Siargao, a non-profit whose donations will go towards Typhoon Rai relief efforts and long term rehabilitation. Any amount will help. </p>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-6" id="buttons-warpper">
+        <a href="https://www.gofundme.com/f/dvm8xd-philippines-relief-fund?utm_campaign=p_cp+share-sheet&utm_medium=copy_link_all&utm_source=customer" style="text-decoration: none;"><button id="btn1" type="button" class="btn btn-secondary btn-lg btn-block">GoFundMe</button></a>
+      </div>
+      <div class="col-md-6" id="buttons-warpper">
+        <button id="btn2" type="button" class="btn btn-primary btn-lg btn-block">Venmo @Patricksalvanera</button>
+      </div>
+    </div>
+
+  </div> 
+
+  <!-- Scripts -->
+  <script src="https://use.fontawesome.com/68f3846bea.js"></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+  <script src="js/jquery-migrate-3.0.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/owl.carousel.min.js"></script>
+  <script src="js/jquery.waypoints.min.js"></script>
+  <script src="js/jquery.fancybox.min.js"></script>
+  <script src="js/jquery.stellar.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script src="js/main.js"></script>
+
+
 </body>
+
 </html>

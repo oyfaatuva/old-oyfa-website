@@ -1,0 +1,59 @@
+html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.main-pic {
+    position: relative;
+}
+
+/* .arrow {
+    color: white;
+    position: absolute;
+    bottom: 50%;
+} */
+
+#description {
+    font-size: larger;
+    justify-content: center;
+}
+
+a {
+    color: rgb(111, 165, 235);
+}
+
+h3 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+}
+
+p {
+    font-size: large;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    border: 3px solid black;
+}
+
+button {
+    height: 75px;
+    /* width: 75% !important; */
+    border-radius: 10px !important;
+    margin: 5px !important;
+    padding: 5px !important;
+}
+
+#btn1 {
+    background-color: rgb(247, 216, 82);
+}
+
+#btn2 {
+    background-color: rgb(111, 165, 235);
+}
