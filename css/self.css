@@ -49,3 +49,10 @@ html {
 #donate-button{
      border-radius: 3%;
 }
+
+/* allows for cropping of the olympics picture */
+.crop {
+    width: 30em; /* width of container */
+    height: 40em; /* height of container */
+    object-fit: cover;
+}
